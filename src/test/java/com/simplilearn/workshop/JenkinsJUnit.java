@@ -17,7 +17,7 @@ public class JenkinsJUnit {
 
 	@Test
 	public void testCaseFailed() {
-		int a = 1;
+		int a = 2;
 		int b = 2;
 		Assert.assertTrue(a + b == 4);
 	}
